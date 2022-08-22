@@ -1,0 +1,36 @@
+body{background-image: url(background.jpg);
+text-align: center;
+margin: 0px;
+display: flex;
+flex-direction: column;
+background-size: cover;}
+
+#titlestitle{color: red; font-size: x-large; margin: 24px;}
+#title{color: white; font-size: 3em; font-weight: bolder; margin: 0px;}
+#choice{color: white; font-size: large; font-weight: bold;}
+#elements{display: flex; flex-direction: column; gap: 138px;}
+#imagesection{display: flex; flex-direction: row; align-items: center; gap: 270px; margin-left: 240px;}
+#namesection{display: flex; flex-direction: row; align-items: center; gap: 300px; margin-left: 300px;}
+
+.item{width: 120px; height: 120px; border-color: indigo; border-width: 3px; align-items: center; }
+.names{width: 90px; height: 90px; font-size: xx-large; color: white; align-items: center; }
+
+#imgone{width: 240px; height: 240px; border-color: indigo; border-width: 9px; border-style: solid;}
+#imgtwo{width: 240px; height: 240px; border-color: indigo; border-width: 9px;  border-style: solid;}
+#imgthree{width: 240px; height: 240px; border-color: indigo; border-width: 9px;  border-style: solid;}
+
+#others{display: flex; flex-direction: column; gap: 18px;}
+#computer{text-align: center; color: white; font-size: large; font-weight: bold;}
+#result{text-align: center; font-weight: bolder; color: violet}
+#score{text-align: center; font-size: larger; color: white; font-weight: bolder;}
+#refrence{text-decoration: none; color: violet; position: relative; float: left;}
+.risk{color: red; font-size: larger; font-weight: bolder;}
+#risk-numb{background-color: indigo; color: white; padding: 12px; font-size: large; font-weight: bold; border-radius: 6px; border-width: 4px; border-style: solid; border-color: indigo;}
+#disp{color: white; font-size: larger;}
+
+#imgone:hover{border-color: violet; transition-property: all; transition-duration: 0.3s; transition-timing-function: ease-in;}
+#imgtwo:hover{border-color: violet; transition-property: all; transition-duration: 0.3s; transition-timing-function: ease-in;}
+#imgthree:hover{border-color: violet; transition-property: all; transition-duration: 0.3s; transition-timing-function: ease-in;}
+.names:hover {color: violet; transition-property: all; transition-duration: 0.3s; transition-timing-function: ease-in;}
+
+#risk-numb:hover{border-color: darkred;}
